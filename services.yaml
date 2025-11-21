@@ -1,0 +1,16 @@
+mark_as_read:
+  name: Mark message as read
+  description: Mark a KLAPP message as read
+  fields:
+    message_id:
+      name: Message ID
+      description: The ID of the message to mark as read
+      required: true
+      example: "12345"
+      selector:
+        text:
+
+mark_all_read:
+  name: Mark all unread messages as read
+  description: Mark all currently unread KLAPP messages as read in a single API call
+  fields: {}
