@@ -3,9 +3,10 @@
   "name": "KLAPP",
   "codeowners": ["@mr-deamon"],
   "config_flow": true,
-  "documentation": "https://github.com/mr-deamon/homeassistant-klapp",
+  "documentation": "https://github.com/mr-deamon/klapp",
   "integration_type": "service",
   "iot_class": "cloud_polling",
   "requirements": [],
+  "issue_tracker": "https://github.com/mr-deamon/klapp/issues",
   "version": "1.0.0"
 }
